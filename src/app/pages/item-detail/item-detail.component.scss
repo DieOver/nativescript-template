@@ -1,0 +1,29 @@
+.mobile-sm {
+  .back,
+  .app {
+    font-size: 28;
+  }
+}
+.mobile {
+  .back,
+  .app {
+    font-size: 38;
+  }
+  &.image-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+.tablet {
+  .back,
+  .app {
+    font-size: 42;
+  }
+}
+.cpu {
+  .back,
+  .app {
+    font-size: 46;
+  }
+}

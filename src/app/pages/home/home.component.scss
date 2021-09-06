@@ -1,0 +1,60 @@
+.mobile-sm {
+  .menu,
+  .search {
+    font-size: 22;
+  }
+  .tab {
+    label {
+      font-size: 12;
+    }
+  }
+}
+.mobile {
+  .menu,
+  .search {
+    font-size: 28;
+  }
+  .tab {
+    label {
+      font-size: 12;
+    }
+  }
+  .image-card {
+    border-radius: 25;
+    height: 150;
+    width: 100;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .image-card-bottom {
+    border-radius: 25;
+    height: 150;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+.tablet {
+  .menu,
+  .search {
+    font-size: 38;
+  }
+  .tab {
+    label {
+      font-size: 14;
+    }
+  }
+}
+.cpu {
+  .menu,
+  .search {
+    font-size: 42;
+  }
+  .tab {
+    label {
+      font-size: 16;
+    }
+  }
+}
