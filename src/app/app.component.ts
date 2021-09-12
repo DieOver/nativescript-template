@@ -1,20 +1,15 @@
 import { Component, OnInit, OnDestroy } from "@angular/core";
-import { registerElement } from "@nativescript/angular";
 import { View } from "@nativescript/core";
-import { Carousel, CarouselItem } from "nativescript-carousel";
 import { UIService } from "~/app/shared/services/ui.service";
-import { PullToRefresh } from "@nativescript-community/ui-pulltorefresh";
-
-registerElement('Carousel', () => Carousel);
-registerElement('CarouselItem', () => CarouselItem);
-registerElement("PullToRefresh", () => PullToRefresh);
 
 @Component({
   selector: "ns-app",
   moduleId: module.id,
   template: `
     <RootLayout>
-      <page-router-outlet></page-router-outlet>
+      <Page>
+        <page-router-outlet></page-router-outlet>
+      </Page>
     </RootLayout>
   `
 })
