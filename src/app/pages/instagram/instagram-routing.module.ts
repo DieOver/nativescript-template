@@ -4,7 +4,7 @@ import {
   NativeScriptCommonModule,
   NativeScriptRouterModule
 } from "@nativescript/angular";
-import { InstagramComponent } from "./instagram.component";
+import { InstagramComponent } from "~/app/pages/instagram/instagram.component";
 
 export const routes: Routes = [
   {

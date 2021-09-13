@@ -1,11 +1,11 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
+import { RouterExtensions } from "@nativescript/angular";
+import { Page } from "@nativescript/core/ui";
 import { Item } from "~/app/shared/interfaces/item";
 import { ItemService } from "~/app/shared/services/item.service";
-import { Page } from "@nativescript/core/ui";
-import { RouterExtensions } from "@nativescript/angular";
-import { Icons } from "~/app/shared/utils";
 import { UIService } from "~/app/shared/services/ui.service";
+import { Icons } from "~/app/shared/utils";
 
 @Component({
   selector: "ns-details",

@@ -1,13 +1,12 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import {
-  NativeScriptModule,
+  NativeScriptAnimationsModule,
   NativeScriptCommonModule,
-  NativeScriptAnimationsModule
+  NativeScriptModule
 } from "@nativescript/angular";
-
-import { AppRoutingModule } from "./app-routing.module";
-import { AppComponent } from "./app.component";
-import { SharedModule } from "./shared/shared.module";
+import { AppRoutingModule } from "~/app/app-routing.module";
+import { AppComponent } from "~/app/app.component";
+import { SharedModule } from "~/app/shared/shared.module";
 
 @NgModule({
   bootstrap: [AppComponent],

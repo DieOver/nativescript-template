@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
-import { InstagramService } from "~/app/shared/services/instagram.service";
-import { Instagram } from "~/app/shared/interfaces/instagram";
-import { Icons } from "~/app/shared/utils";
 import { ObservableArray, Page } from "@nativescript/core";
+import { Instagram } from "~/app/shared/interfaces/instagram";
+import { InstagramService } from "~/app/shared/services/instagram.service";
+import { Icons } from "~/app/shared/utils";
 
 @Component({
   selector: "ns-instagram",

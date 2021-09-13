@@ -4,7 +4,7 @@ import { UIService } from "~/app/shared/services/ui.service";
 @Component({
   selector: "ns-custom-modal",
   moduleId: module.id,
-  styleUrls: ['./custom-modal.component.scss'],
+  styleUrls: ["./custom-modal.component.scss"],
   template: `
     <GridLayout
       verticalAlignment="center"

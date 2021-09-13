@@ -6,15 +6,20 @@ const routes: Routes = [
   { path: "", redirectTo: "/instagram", pathMatch: "full" },
   {
     path: "instagram",
-    loadChildren: () => import("./pages/instagram/instagram.module").then(m => m.InstagramModule)
+    loadChildren: () =>
+      import("./pages/instagram/instagram.module").then(m => m.InstagramModule)
   },
   {
     path: "home",
-    loadChildren: () => import("./pages/home/home.module").then(m => m.HomeModule)
+    loadChildren: () =>
+      import("./pages/home/home.module").then(m => m.HomeModule)
   },
   {
     path: "detail/:id",
-    loadChildren: () => import("./pages/item-detail/item-detail.module").then(m => m.ItemDetailModule)
+    loadChildren: () =>
+      import("./pages/item-detail/item-detail.module").then(
+        m => m.ItemDetailModule
+      )
   }
 ];
 

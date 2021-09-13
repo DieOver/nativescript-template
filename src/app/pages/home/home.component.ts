@@ -1,10 +1,10 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
-import { ItemService } from "~/app/shared/services/item.service";
-import { Page } from "@nativescript/core";
 import { RouterExtensions } from "@nativescript/angular";
-import { Icons } from "~/app/shared/utils";
-import { UIService } from "~/app/shared/services/ui.service";
+import { Page } from "@nativescript/core";
 import { Item } from "~/app/shared/interfaces/item";
+import { ItemService } from "~/app/shared/services/item.service";
+import { UIService } from "~/app/shared/services/ui.service";
+import { Icons } from "~/app/shared/utils";
 
 @Component({
   selector: "ns-home",

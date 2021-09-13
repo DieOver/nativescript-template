@@ -3,9 +3,9 @@ import {
   NativeScriptCommonModule,
   NativeScriptFormsModule
 } from "@nativescript/angular";
-import { SharedModule } from "../../shared/shared.module";
-import { HomeRoutingModule } from "./home-routing.module";
-import { HomeComponent } from "./home.component";
+import { HomeRoutingModule } from "~/app/pages/home/home-routing.module";
+import { HomeComponent } from "~/app/pages/home/home.component";
+import { SharedModule } from "~/app/shared/shared.module";
 
 @NgModule({
   imports: [

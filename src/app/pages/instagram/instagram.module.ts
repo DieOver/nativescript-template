@@ -4,9 +4,9 @@ import {
   NativeScriptCommonModule,
   NativeScriptFormsModule
 } from "@nativescript/angular";
-import { SharedModule } from "../../shared/shared.module";
-import { InstagramRoutingModule } from "./instagram-routing.module";
-import { InstagramComponent } from "./instagram.component";
+import { InstagramRoutingModule } from "~/app/pages/instagram/instagram-routing.module";
+import { InstagramComponent } from "~/app/pages/instagram/instagram.component";
+import { SharedModule } from "~/app/shared/shared.module";
 
 @NgModule({
   imports: [

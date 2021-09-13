@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from "@angular/core";
+import { Component, OnDestroy, OnInit } from "@angular/core";
 import { View } from "@nativescript/core";
 import { UIService } from "~/app/shared/services/ui.service";
 

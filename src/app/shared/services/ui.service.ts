@@ -1,13 +1,12 @@
 import { ComponentRef, Injectable, Injector } from "@angular/core";
-import { getRootLayout, View } from "@nativescript/core";
 import { generateNativeScriptView } from "@nativescript/angular";
+import { getRootLayout, View } from "@nativescript/core";
+import { screen } from "@nativescript/core/platform";
 import { CustomModalComponent } from "~/app/shared/components/custom-modal/custom-modal.component";
 import { MenuComponent } from "~/app/shared/components/menu/menu.component";
 import {
-  EASEINOUT_ANIMATION_CURVE,
-  DEFAULT_ANIMATION_CURVE
+  DEFAULT_ANIMATION_CURVE, EASEINOUT_ANIMATION_CURVE
 } from "~/app/shared/utils";
-import { screen } from "@nativescript/core/platform";
 
 @Injectable({
   providedIn: "root"

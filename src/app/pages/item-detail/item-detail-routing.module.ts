@@ -4,7 +4,7 @@ import {
   NativeScriptCommonModule,
   NativeScriptRouterModule
 } from "@nativescript/angular";
-import { ItemDetailComponent } from "./item-detail.component";
+import { ItemDetailComponent } from "~/app/pages/item-detail/item-detail.component";
 
 export const routes: Routes = [
   {
