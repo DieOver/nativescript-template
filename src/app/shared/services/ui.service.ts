@@ -5,7 +5,8 @@ import { screen } from "@nativescript/core/platform";
 import { CustomModalComponent } from "~/app/shared/components/custom-modal/custom-modal.component";
 import { MenuComponent } from "~/app/shared/components/menu/menu.component";
 import {
-  DEFAULT_ANIMATION_CURVE, EASEINOUT_ANIMATION_CURVE
+  DEFAULT_ANIMATION_CURVE,
+  EASEINOUT_ANIMATION_CURVE
 } from "~/app/shared/utils";
 
 @Injectable({
