@@ -8,6 +8,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "ios": "ns run ios --hmr",
+    "android": "ns run android --hmr"
+  },
   "files": [
     "App_Resources",
     "hooks",
